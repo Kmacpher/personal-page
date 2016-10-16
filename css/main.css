@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'allerLt';
+    src: url('../assets/fonts/Aller_Lt.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerRg';
+    src: url('../assets/fonts/Aller_Rg.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerdisplay';
+    src: url('../assets/fonts/AllerDisplay.ttf');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+p {
+  line-height: 1.8;
+}
+
+#intro h1 {
+  font-size: 50px;
+  color: #EF6F6C;
+  margin-bottom: 10px;
+}
+
+#intro h4 {
+  padding-left: 85px;
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+#intro p {
+  font-size: 1.1rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "allerRg";
+  color: #595959
+}
+
+hr {
+  box-sizing: border-box;
+}
+
+/*#page {
+  display: flex;
+}*/
+
+#navbar {
+  width: 20em;
+  background-color:#65C6B0;
+  color: white;
+  position: fixed;
+  right: 0;
+  top:0;
+  
+  text-align: center;
+  font-family: "allerdisplay";
+  height: 100vh;
+}
+
+#navbar .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  margin: 15% auto;
+  
+  
+}
+
+
+#main {
+  padding-right: 20em;
+  /*width: 100%;*/
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  margin: 50px auto;
+  width: 75%;
+}
+
+#profile-pic {
+  display: block;
+  width: 12em;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#top {
+  height: 200px;
+  background-image: url("../assets/images/jewel.jpg");
+  background-size: 100%;
+  /*background-color: #004466;*/
+  text-align: center;
+}
+
+@media only screen and (min-height: 650px) {
+  #nav {
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+}
+
+
+
+#nav-header {
+  font-family: "allerdisplay";
+}
+
+#nav-header h5 {
+  margin: 25px 0;
+}
+
+h1, .title{
+  font-family: "allerdisplay", "allerRg"; 
+}
+
+/*#nav-header h1 {
+  font-family: "allerLt";
+}*/
+
+.link {
+  padding: 0.9em;
+  font-size: 1.1rem;
+}
+/*
+#contact-info {
+  text-align: center;
+  padding: 1em;
+}*/
+
+
+
