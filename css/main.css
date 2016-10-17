@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'allerLt';
-    src: url('../assets/fonts/Aller_Lt.ttf');
+    src: url('../fonts/Aller_Lt.ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'allerRg';
-    src: url('../assets/fonts/Aller_Rg.ttf');
+    src: url('../fonts/Aller_Rg.ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'allerdisplay';
-    src: url('../assets/fonts/AllerDisplay.ttf');
+    src: url('../fonts/AllerDisplay.ttf');
     font-weight: bold;
     font-style: normal;
 
@@ -54,6 +54,11 @@ hr {
   box-sizing: border-box;
 }
 
+.social {
+  padding: 10px;
+  color: white;
+}
+
 /*#page {
   display: flex;
 }*/
@@ -65,7 +70,6 @@ hr {
   position: fixed;
   right: 0;
   top:0;
-  
   text-align: center;
   font-family: "allerdisplay";
   height: 100vh;
@@ -122,8 +126,6 @@ ul {
   }
 }
 
-
-
 #nav-header {
   font-family: "allerdisplay";
 }
@@ -131,6 +133,24 @@ ul {
 #nav-header h5 {
   margin: 25px 0;
 }
+
+#nav-header h5 a{
+  color: white;
+}
+
+.active {
+  background-color: white;
+  color: #EF6F6C !important;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.title {
+  color: #65C6B0;
+}
+
 
 h1, .title{
   font-family: "allerdisplay", "allerRg"; 
@@ -144,11 +164,36 @@ h1, .title{
   padding: 0.9em;
   font-size: 1.1rem;
 }
+
+.link a {
+  color: white;
+}
+
+/*.active a {
+ color: #EF6F6C;
+}
+
+.active h5 {
+ color: #EF6F6C;
+}*/
 /*
 #contact-info {
   text-align: center;
   padding: 1em;
 }*/
 
+.card {
+  margin: 15px;
+}
 
+footer {
+  background-color: #EF6F6C;
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
 
+.into {
+  color: #EF6F6C;
+  padding: 20px 0 15px 15px;;
+}
