@@ -81,6 +81,7 @@ hr {
   justify-content: space-between;
   height: 90%;
   margin: 15% auto;
+  padding-bottom: 10%;
   
   
 }
@@ -218,6 +219,10 @@ footer {
 
   #hamburger {
     display: inline-block;
+  }
+
+  #intro h1 {
+    font-size: 0.8rem;
   }
 }
 
