@@ -118,7 +118,7 @@ ul {
   text-align: center;
 }
 
-@media only screen and (min-device-height: 650px) {
+@media only screen and (min-height: 650px) {
   #nav {
       height: 50%;
       display: flex;
@@ -153,7 +153,7 @@ ul {
 }
 
 
-h1, .title{
+h1, .title, .into-title{
   font-family: "allerdisplay", "allerRg"; 
 }
 
@@ -203,7 +203,7 @@ footer {
   display: none;
 }
 
-@media only screen and (max-device-width:800px) {
+@media only screen and (max-width:800px){
   #nav-header, #nav  {
     display: none;
   }
@@ -222,10 +222,22 @@ footer {
   }
 
   #intro h1 {
-    font-size: 0.8rem;
+    font-size: 40px;
+  }
+
+  #intro h4 {
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 1.6rem;
+  }
+
+  #into .card-image {
+    display: none;
   }
 }
 
 #nav-dropdown {
   width: 200px !important;
 }
+
+
