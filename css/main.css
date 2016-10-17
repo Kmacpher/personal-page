@@ -237,7 +237,8 @@ footer {
 }
 
 #nav-dropdown {
-  width: 200px !important;
+  width: 250px !important;
+  z-index: 1;
 }
 
 
