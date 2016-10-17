@@ -117,7 +117,7 @@ ul {
   text-align: center;
 }
 
-@media only screen and (min-height: 650px) {
+@media only screen and (min-device-height: 650px) {
   #nav {
       height: 50%;
       display: flex;
@@ -202,7 +202,7 @@ footer {
   display: none;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-device-width:800px) {
   #nav-header, #nav  {
     display: none;
   }
