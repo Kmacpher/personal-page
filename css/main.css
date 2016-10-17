@@ -39,7 +39,7 @@ p {
 }
 
 #intro p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 body {
@@ -196,4 +196,31 @@ footer {
 .into {
   color: #EF6F6C;
   padding: 20px 0 15px 15px;;
+}
+
+#hamburger {
+  display: none;
+}
+
+@media only screen and (max-width:800px) {
+  #nav-header, #nav  {
+    display: none;
+  }
+
+  #navbar {
+    width: 60px; 
+  }
+
+  #main {
+  padding-right: 60px;
+  /*width: 100%;*/
+  }
+
+  #hamburger {
+    display: inline-block;
+  }
+}
+
+#nav-dropdown {
+  width: 200px !important;
 }
